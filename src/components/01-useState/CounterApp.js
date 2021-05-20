@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './counter.css';
 
 
+
 // TAREA DE HACER UN CONTADOR DE UN SOLO VALOR Y MANTENER EL RESTO DE VALORES ESTATICOS
 export const CounterApp = () => {
 
