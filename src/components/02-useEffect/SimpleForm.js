@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './effects.css';
+import {Message} from './Message';
 
 export const SimpleForm = () => {
 
@@ -53,6 +54,8 @@ export const SimpleForm = () => {
             </input>
         </div>
         <hr></hr>
+
+        {(name === '123') && <Message />}
         </>
     )
 }
