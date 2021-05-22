@@ -9,6 +9,7 @@ export const MultipleCustomHooks = () => {
     const {loading, data} = useFetch(`https://www.breakingbadapi.com/api/quotes/${counter}`);
     // el !! es por el caso que data es null, si pones !data sera true, y si pones !!data sera falso
     // todo esto es porque el valor puede ser null.
+
     const {author, quote} = !!data && data[0];
 
     return (
